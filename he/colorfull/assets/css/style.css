@@ -82,6 +82,17 @@ button {
 .t-red {
   color: #cd5c5c;
 }
+.t-blue {
+  color: #0cc0de;
+}
+
+.t-facebook {
+  color: #0866ff;
+}
+.t-linkedin {
+  color: #0a66c2;
+}
+
 .max-width-d {
   max-width: 1440px;
 }
@@ -859,6 +870,8 @@ header .navbar-brand b {
   position: relative;
   border-radius: 8px;
   cursor: pointer;
+  border: 1px solid #3cb371;
+  max-height: 330px;
 }
 .blog-icon {
   height: 100%;
