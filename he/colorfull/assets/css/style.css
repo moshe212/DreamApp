@@ -864,6 +864,9 @@ header .navbar-brand b {
 .portfolio-filter .list-inline-item:not(:last-child) {
   margin-right: 1rem;
 }
+.link-img {
+  max-width: 1.25rem;
+}
 /*------------------------- Blog -------------------------*/
 .blog .blog-image {
   overflow: hidden;
@@ -924,6 +927,7 @@ header .navbar-brand b {
   margin-top: 1rem;
   display: inline-block;
 }
+
 /*--------------------------- Contact ---------------------------*/
 .contact-box {
   margin-top: 40px;

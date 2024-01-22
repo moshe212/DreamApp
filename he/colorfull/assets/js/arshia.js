@@ -832,7 +832,7 @@ function mapInit() {
     var lng = myMap.data("location-lng");
     var options = {
       center: new google.maps.LatLng(lat, lng),
-      zoom: 7,
+      zoom: 20,
       mapTypeControl: true,
       gestureHandling: "cooperative",
       panControl: false,

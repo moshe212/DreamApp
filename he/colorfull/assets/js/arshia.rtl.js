@@ -809,6 +809,14 @@ function portfolioIsotop() {
           }
           $(this).find(".portfolio-image").addClass("filtered");
         });
+
+        // if (filterValue === ".webdevelop") {
+        //   $grid.isotope("destroy").isotope({
+        //     itemSelector: ".portfolio-item",
+        //     layoutMode: "masonry",
+        //     originLeft: false,
+        //   });
+        // }
       }
     }
 
@@ -873,7 +881,7 @@ function mapInit() {
     var lng = myMap.data("location-lng");
     var options = {
       center: new google.maps.LatLng(lat, lng),
-      zoom: 7,
+      zoom: 15,
       mapTypeControl: true,
       gestureHandling: "cooperative",
       panControl: false,
@@ -1168,6 +1176,7 @@ function themeOption() {
     $("body").addClass("dark-arshia");
     $(".color-scheme li a").removeClass("active");
     $(this).addClass("active");
+    $(".color-pallet").removeClass("show");
   });
 
   $(".color-scheme li .light-scheme").click(function () {
@@ -1189,6 +1198,9 @@ function themeOption() {
   });
 }
 
+function hideDarkLightPallete() {
+  $(".color-pallet").removeClass("show");
+}
 /*-------------------------  Mobile Option  -------------------------*/
 function modifyLinksForMobile() {
   // Check if the device is mobile based on screen width

@@ -10,7 +10,7 @@ body {
   border: 1px solid #0bceaf;
   background-color: transparent;
   position: relative;
-  right: 80%;
+  right: 87%;
 }
 .secondary-button:hover {
   color: #fff;
@@ -359,7 +359,7 @@ header,
   color: #0bceaf;
 }
 .blog-text-trail {
-  color: #000 !important;
+  color: #0bceaf !important;
 }
 .header-title-1 {
   margin-bottom: 0;
