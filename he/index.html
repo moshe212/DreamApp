@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en" class="max-width-d">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>DreamApp</title>
+  <meta property="og:title" content="Develop your dreams" />
+  <meta property="og:description" content="We are here to make your dreams come true" />
+  <meta property="og:url" content="https://dream-app.fly.dev/he" />
+  <meta property="og:image" content="https://dream-app.fly.dev/he/assets/img/logo_d.png" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="DreamApp" />
+  <!--  FavIcon  -->
+  <link rel="shortcut icon" href="./assets/img/logo_d.png" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet" />
+  <!-- Bootstrap Css -->
+  <!--<link rel="stylesheet" href="assets/css/bootstrap.css" />-->
+  <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css" />
+  <!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="assets/css/bootstrap-icons.css" />
+  <!-- Malihu Jquery Custom ScrollBar Css -->
+  <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.css" />
+  <!-- Animate Css -->
+  <link rel="stylesheet" href="assets/css/animate.min.css" />
+  <!-- Swiper Css -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+  <!-- Magnific Popup Css -->
+  <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+  <!--  Custom Style Css  -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/rtl.css" />
+
+  <!--  Color Css  -->
+  <link rel="stylesheet" href="assets/colors/colorfull.css" />
+</head>
+
+<body class="max-width-d">
+  <!-- Preloader -->
+  <div id="line-loader">
+    <div class="middle-line"></div>
+  </div>
+
+  <!--   Menu Overlay Mobile -->
+  <div class="menu-overlay d-none"></div>
+
+  <!--   Right Side Start  -->
+  <div class="right-side d-none d-lg-block">
+    <div id="date"></div>
+    <div class="social-box">
+      <div class="follow-label">
+        <span>שמור על קשר</span>
+      </div>
+      <div class="social d-none d-lg-block">
+        <a href="https://wa.me/972523587990/?text=%22%D7%94%D7%99%D7%99%22" target="_blank">
+          <i class="bi bi-whatsapp t-green"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/moshe-ansbacher-2960b438/" target="_blank">
+          <i class="bi bi-linkedin t-purple"></i>
+        </a>
+        <a href="https://www.facebook.com/moshe.ansbacher/" target="_blank">
+          <i class="bi bi-facebook t-blue"></i>
+        </a>
+      </div>
+    </div>
+    <div class="next-prev-page">
+      <button type="button" class="prev-page bg-base-color hstack">
+        <i class="bi bi-chevron-compact-up mx-auto"></i>
+      </button>
+      <button type="button" class="next-page bg-base-color mt-3 hstack">
+        <i class="bi bi-chevron-compact-down mx-auto"></i>
+      </button>
+    </div>
+  </div>
+  <!--  Right Side End  -->
+
+  <!--  Left Side Start  -->
+  <div class="left-side nav-close">
+    <div class="menu-content-align">
+      <div class="left-side-image">
+        <img src="./assets/img/me.jpg" alt="/" />
+      </div>
+      <h1 class="mt-1">משה אנסבכר.</h1>
+      <a class="download-cv primary-button d-none d-lg-inline-block" href="./assets/files/Resume_2023.pdf" download>הורד
+        קו"ח</a>
+      <div class="container d-lg-none d-inline-block">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="text-muted mb-0">FULL STACK DEVELOPER</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu-align">
+      <ul class="list-group menu text-center" id="menu">
+        <li class="list-group-item">
+          <a href="#hero">
+            <i class="bi bi-house"></i>
+            <span>בית</span>
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="#about" class="custom-btn">
+            <i class="bi bi-person"></i>
+            <span>אודות</span>
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="#resume">
+            <i class="bi bi-clipboard-check"></i>
+            <span>קורות חיים</span>
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="#portfolio">
+            <i class="bi bi-collection"></i>
+            <span>עבודות</span>
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="#blog">
+            <i class="bi bi-book"></i>
+            <span>בלוג</span>
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="#contact">
+            <i class="bi bi-geo-alt"></i>
+            <span>צור קשר</span>
+          </a>
+        </li>
+      </ul>
+      <div class="menu-footer">
+        <a class="download-cv primary-button mt-3 mb-4 d-lg-none" href="./assets/files/Resume_2023.pdf" download>הורד
+          קו"ח</a>
+        <div class="social d-lg-none d-block">
+          <a href="https://wa.me/972523587990/?text=%22%D7%94%D7%99%D7%99%22" class="d-inline-block" target="_blank">
+            <i class="bi bi-whatsapp t-green"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/moshe-ansbacher-2960b438/" class="d-inline-block mx-4" target="_blank">
+            <i class="bi bi-linkedin t-purple"></i>
+          </a>
+          <a href="https://www.facebook.com/moshe.ansbacher/" class="d-inline-block" target="_blank">
+            <i class="bi bi-facebook t-blue"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  Left Side End  -->
+
+  <!--  Main Start  -->
+  <main id="main" class="main-2">
+
+
+    <!--  Hero Start  -->
+    <section id="hero" class="section hero w-100">
+      <img class="extend-icon" src="./assets/img/responsive.png" alt="/" />
+      <div class="hero-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center text-lg-start">
+              <div class="hero-image d-inline-block d-lg-none">
+                <img src="./assets/img/me.jpg" alt="/" />
+              </div>
+              <div class="hero-content mt-4 mx-auto mx-lg-0 text-lg-left mt-lg-none">
+                <p class="base-color">FULL STACK DEVELOPER</p>
+                <h2>
+                  היי, אני
+                  <span class="base-color">משה אנסבכר. </span>ברוך הבא..
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-footer d-block d-lg-none">
+        <a class="download-cv primary-button mt-3 mb-4 d-lg-none" href="./assets/files/Resume_2023.pdf" download>הורד
+          קו"ח</a>
+        <div class="social d-lg-none mb-4 d-block">
+          <a href="https://wa.me/972523587990/?text=%22%D7%94%D7%99%D7%99%22" class="d-inline-block" target="_blank">
+            <i class="bi bi-whatsapp t-green"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/moshe-ansbacher-2960b438/" class="d-inline-block mx-4" target="_blank">
+            <i class="bi bi-linkedin t-purple"></i>
+          </a>
+          <a href="https://www.facebook.com/moshe.ansbacher/" class="d-inline-block" target="_blank">
+            <i class="bi bi-facebook t-blue"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--  Hero End  -->
+
+    <!--  About Start  -->
+    <section id="about" class="section about">
+      <div class="container">
+        <!-- Introducce Me -->
+        <div class="about-boxes">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="about-img">
+                <img src="./assets/img/me-front3_auto_custom.jpg" alt="/" />
+                <div class="border-img"></div>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="about-description">
+                <h3 class="mb-3">קצת עלי ועל השאיפות שלי..</h3>
+                <p class="about-text">
+
+                  שלום, שמי משה אנסבכר. אני מפתח Fullstack מנוסה, עם תשוקה
+                  לטכנולוגיה וחדשנות. אני מתמחה ב- React.js Node.js וגם מעט
+                  Python. בזמן האחרון עסקתי בפיתוח מספר פרויקטים ייחודיים,
+                  כולל:
+                <p class="about-clauses">1. פיתוח בוטים מתקדמים לוואטסאפ.</p>
+                <p class="about-clauses">2. פיתוח טסטים אוטומטיים לאפליקציות React.js באמצעות Cypress.</p>
+                <p class="about-clauses">3. חיבור אתרים ל Storyblok CMS - (מתן פתרונות יצירתיים לניהול תוכן).</p>
+                <p class="about-clauses">4. בניית אתרים ואפליקציות מגוונות בשילוב של React.js ו- Node.js.</p>
+                <p class="about-clauses">5. פיתוח תהליכי Scraping מורכבים, כולל איסוף נתונים ואוטומציה על מגוון אתרים.
+                </p>
+                <p class="about-clauses">6. יצירת אפליקציות מבוססות No-Code מהלך שמאפשר גמישות וחדשנות בפיתוח בזמנים
+                  קצרים ועלויות נמוכות.</p>
+                <div>
+                  <p class="about-private">
+                    מחוץ לעולם הטכנולוגיה, אני נשוי ואבא לשני ילדים מתוקים שממלאים את עולמי.. מתעניין במוזיקה ומנגן
+                    בגיטרה. אני
+                    גם נהנה לפתח תהליכי אוטומציה שמקלים על החיים היומיומיים
+                    ולעזור לאחרים בכל דרך שאני יכול. התשוקה שלי לפיתוח ולחדשנות
+                    מניעה אותי ללמוד ולהתמקצע בכל יום, ואני מחפש תמיד דרכים
+                    חדשות לפתור בעיות באמצעות טכנולוגיה. אני מאמין שבאמצעות
+                    יצירתיות, עבודת צוות ומוטיבציה, ניתן להשיג כל מטרה ולהגשים כל חלום..
+                  </p>
+                  <p>אשמח לשתף פעולה ולעבוד יחד על הגשמת החלום שלכם.</p>
+                  <p>צרו איתי קשר ובואו נבנה משהו מדהים יחד!</p>
+                </div>
+                </p>
+              </div>
+              <!-- Personal Info -->
+              <!-- <div class="row">
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled personal-info">
+                      <li>Website : <small>mail@example.com</small></li>
+                      <li>Phone : <small>+123 456 7890</small></li>
+                      <li>City : <small> New York, USA</small></li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled personal-info">
+                      <li>Age : <small>30</small></li>
+                      <li>Degree : <small>Master</small></li>
+                      <li>Freelance : <small>Available</small></li>
+                    </ul>
+                  </div>
+                  <div class="col-12">
+                    <a href="#contact" class="to-contact primary-button mt-2"
+                      >Hire me</a
+                    >
+                  </div>
+                </div> -->
+            </div>
+          </div>
+        </div>
+        <!--  Count up  -->
+        <div id="count-up" class="count-up text-center box-border">
+          <div class="row">
+            <!-- Item-01 -->
+            <div class="col-6 col-lg-3 my-4 count-item">
+              <div class="count-icon">
+                <img src="./assets/img/app-development.png" alt="/" />
+              </div>
+              <!-- <span
+                  class="timer count-number"
+                  data-from="0"
+                  data-to="286"
+                  data-speed="5000"
+                  >0</span
+                > -->
+              <p class="mb-0">פיתוח אתרים ואפליקציות</p>
+            </div>
+            <!-- Item-02 -->
+            <div class="col-6 col-lg-3 my-4 count-item">
+              <div class="count-icon">
+                <img src="./assets/img/test_automation.png" alt="/" />
+              </div>
+              <!-- <span
+                  class="timer count-number"
+                  data-from="0"
+                  data-to="6549"
+                  data-speed="5000"
+                  >0</span
+                > -->
+              <p class="mb-0">אוטומציות</p>
+            </div>
+            <!-- Item-03 -->
+            <div class="col-6 col-lg-3 my-4 count-item">
+              <div class="count-icon">
+                <img src="./assets/img/wa_bot.png" alt="/" />
+              </div>
+              <!-- <span
+                  class="timer count-number"
+                  data-from="0"
+                  data-to="793"
+                  data-speed="5000"
+                  >0</span
+                > -->
+              <p class="mb-0">פיתוח בוטים בוואטסאפ</p>
+            </div>
+            <!-- Item-04 -->
+            <div class="col-6 col-lg-3 my-4 count-item">
+              <div class="count-icon">
+                <img src="./assets/img/web-crawler.png" alt="/" />
+              </div>
+              <!-- <span
+                  class="timer count-number"
+                  data-from="0"
+                  data-to="286"
+                  data-speed="5000"
+                  >0</span
+                > -->
+              <p class="mb-0">סקרייפינג</p>
+            </div>
+          </div>
+        </div>
+        <!--  Skills  -->
+        <div class="skills">
+          <div class="row pt-5">
+            <div class="col-lg-7">
+              <div class="skill-description">
+                <h3 class="mb-3">
+                  אני יכול לפתח את הדברים הבאים..
+                </h3>
+                <p class="mb-0">
+                  אני אדם של לב, מחפש את החיבור שלי לאדם שעומד מולי ולפרוייקט אותו הוא רוצה שאפתח. אשמח לשמוע מכם על
+                  הפרוייקט\מיזם שלכם, להתחבר לחזון שלכם ויחד לתת את הלב והנשמה כדי להגשים את החלום ולהוסיף עוד ערך
+                  לעולם.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <ul class="knowledge-item">
+                <li>אתרי תדמית</li>
+                <li>אוטומציות לעסקים</li>
+                <li>אפליקציות ווב</li>
+                <li>בוטים</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--  Skillbar  -->
+        <div class="row mt-5 skills">
+          <div class="col-lg-6">
+            <h3 class="subtitle">טכנולוגיות</h3>
+            <div id="skills">
+              <!-- Item 01 -->
+              <div class="col-lg-12 skill-box">
+                <div class="skill-text">
+                  <div class="skillbar-title">React.js</div>
+                  <div class="skill-bar-percent">
+                    <span data-from="0" data-to="95" data-speed="4000">95</span>%
+                  </div>
+                </div>
+                <div class="skillbar clearfix" data-percent="95%">
+                  <div class="skillbar-bar"></div>
+                </div>
+              </div>
+              <!-- Item 02 -->
+              <div class="col-lg-12 skill-box">
+                <div class="skill-text">
+                  <div class="skillbar-title">Node.js</div>
+                  <div class="skill-bar-percent">
+                    <span data-from="0" data-to="90" data-speed="4000">90</span>%
+                  </div>
+                </div>
+                <div class="skillbar clearfix" data-percent="90%">
+                  <div class="skillbar-bar"></div>
+                </div>
+              </div>
+              <!-- Item 03 -->
+              <div class="col-lg-12 skill-box">
+                <div class="skill-text">
+                  <div class="skillbar-title">TypeScript</div>
+                  <div class="skill-bar-percent">
+                    <span data-from="0" data-to="85" data-speed="4000">85</span>%
+                  </div>
+                </div>
+                <div class="skillbar clearfix" data-percent="85%">
+                  <div class="skillbar-bar"></div>
+                </div>
+              </div>
+              <!-- Item 04 -->
+              <div class="col-lg-12 skill-box">
+                <div class="skill-text">
+                  <div class="skillbar-title">Microsoft SQL</div>
+                  <div class="skill-bar-percent">
+                    <span data-from="0" data-to="90" data-speed="4000">90</span>%
+                  </div>
+                </div>
+                <div class="skillbar clearfix" data-percent="90%">
+                  <div class="skillbar-bar"></div>
+                </div>
+              </div>
+              <!-- Item 05 -->
+              <div class="col-lg-12 skill-box">
+                <div class="skill-text">
+                  <div class="skillbar-title">MongoDB</div>
+                  <div class="skill-bar-percent">
+                    <span data-from="0" data-to="85" data-speed="4000">85</span>%
+                  </div>
+                </div>
+                <div class="skillbar clearfix" data-percent="85%">
+                  <div class="skillbar-bar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 ms-auto mt-5 mt-lg-0">
+            <h3 class="subtitle">שפות</h3>
+            <div class="language-bar">
+              <!-- Item 01 -->
+              <div class="language-skill">
+                <h6 class="mb-0">עברית <span> שפת אם</span></h6>
+                <ul class="list-inline text-right">
+                  <li class="list-inline-item">
+                    <i class="bi bi-circle-fill"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="bi bi-circle-fill"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="bi bi-circle-fill"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="bi bi-circle-fill"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="bi bi-circle-fill"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="bi bi-circle-fill"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="bi bi-circle-fill"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="bi bi-circle-fill"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="bi bi-circle-fill"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="bi bi-circle-half"></i>
+                  </li>
+                </ul>
+              </div>
+              <!-- Item 02 -->
+              <div class="language-skill">
+                <h6 class="mb-0">אנגלית <span>טוב מאוד</span></h6>
+                <ul class="list-inline text-right">
+                  <li class="list-inline-item">
+                    <i class="bi bi-circle-fill"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="bi bi-circle-fill"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="bi bi-circle-fill"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="bi bi-circle-fill"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="bi bi-circle-fill"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="bi bi-circle-fill"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="bi bi-circle-fill"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="bi bi-circle"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="bi bi-circle"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="bi bi-circle"></i>
+                  </li>
+                </ul>
+              </div>
+              <!-- Item 03 -->
+              <!-- <div class="language-skill">
+                  <h6 class="mb-0">Turkey <span>Basic</span></h6>
+                  <ul class="list-inline text-right">
+                    <li class="list-inline-item">
+                      <i class="bi bi-circle-fill"></i>
+                    </li>
+                    <li class="list-inline-item">
+                      <i class="bi bi-circle-fill"></i>
+                    </li>
+                    <li class="list-inline-item">
+                      <i class="bi bi-circle-fill"></i>
+                    </li>
+                    <li class="list-inline-item">
+                      <i class="bi bi-circle-fill"></i>
+                    </li>
+                    <li class="list-inline-item">
+                      <i class="bi bi-circle-fill"></i>
+                    </li>
+                    <li class="list-inline-item">
+                      <i class="bi bi-circle"></i>
+                    </li>
+                    <li class="list-inline-item">
+                      <i class="bi bi-circle"></i>
+                    </li>
+                    <li class="list-inline-item">
+                      <i class="bi bi-circle"></i>
+                    </li>
+                    <li class="list-inline-item">
+                      <i class="bi bi-circle"></i>
+                    </li>
+                    <li class="list-inline-item">
+                      <i class="bi bi-circle"></i>
+                    </li>
+                  </ul>
+                </div> -->
+            </div>
+          </div>
+        </div>
+        <!--  Client  -->
+        <div class="testimonial mt-5">
+          <div class="owl-carousel">
+            <!-- Item 01 -->
+            <div class="testimonial-box">
+              <p class="testimonial-comment">
+                "ארבע שנים של עבודה משותפת בה לכל אתגר יש פתרון יצירתי, ביצוע מהיר ומדויק ובעיקר הבנה של הצורך!
+
+                הגענו למשה במקרה דרך קבוצת מפתחי אוטומציה בפייסבוק. הצלחנו לפצח חווית משתמש מאתגרת במיוחד באמצעות בוט
+                שמאפשר ל-200 משתמשים מענה מהיר, פשוט ויעיל!"
+              </p>
+              <div class="testimonial-item">
+                <div class="testimonial-image">
+                  <img src="./assets/img/omer.jpeg" alt="/" />
+                </div>
+                <div class="testimonial-info">
+                  <p class="mb-0">עומר חימי</p>
+                  <small class="testimonial-jub">מנהל קהילת היציע</small>
+                </div>
+              </div>
+            </div>
+            <!-- Item 02 -->
+            <div class="testimonial-box">
+              <p class="testimonial-comment">
+                "משה ניחן ביכולות טכנולוגיות גבוהות, לצד מקצועיות בלתי מתפשרת ושירות אנושי והגון כלפי הלקוחות."
+              </p>
+              <div class="testimonial-item">
+                <div class="testimonial-image">
+                  <img src="./assets/img/meirim.png" alt="/" />
+                </div>
+                <div class="testimonial-info">
+                  <p class="mb-0">יזהר נבון</p>
+                  <small class="testimonial-jub">מנכ"ל עמותת מאירים</small>
+                </div>
+              </div>
+            </div>
+            <!-- Item 03 -->
+            <div class="testimonial-box">
+              <p class="testimonial-comment">
+                "בתור לקוח של משה יותר משנה יצא לי להכיר בן אדם מקצועי ואכפתי שמקשיב לצרכים של הלקוח ותמיד זמין במידה
+                ויש תקלה.
+                חשוב לי לציין בעיקר את איכות השירות . משה זמין לכל שאלה ונותן מענה מהיר לכל בעיה."
+              </p>
+              <div class="testimonial-item">
+                <div class="testimonial-image">
+                  <img src="./assets/img/moti.png" alt="/" />
+                </div>
+                <div class="testimonial-info">
+                  <p class="mb-0">מוטי סדן</p>
+                  <small class="testimonial-jub">יזם בתחום הדרופשיפינג</small>
+                </div>
+              </div>
+            </div>
+            <!-- Item 04 -->
+            <div class="testimonial-box">
+              <p class="testimonial-comment">
+                "חיפשנו מפתח שיפתח עבור לקוח שלנו אפליקציית mvp על פלטפורמת
+                No-Code, הגענו למשה ופגשנו בחור רציני שסיפק
+                את הסחורה בצורה מדויקת ומהירה והכל תוך שירות מעולה. ממליץ
+                בחום!"
+              </p>
+              <div class="testimonial-item">
+                <div class="testimonial-image">
+                  <img src="./assets/img/dvir.png" alt="/" />
+                </div>
+                <div class="testimonial-info">
+                  <p class="mb-0">דביר כהן</p>
+                  <small class="testimonial-jub">מנכ"ל ב-StartPlan</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  About End  -->
+
+    <!--  Resume Start  -->
+    <section id="resume" class="section">
+      <div class="container">
+        <!-- Servises -->
+        <div class="services mb-6">
+          <div class="boxes">
+            <h3 class="subtitle">שירותים</h3>
+            <div class="row vertical-line">
+              <!-- Item 01 -->
+              <div class="col-md-6">
+                <div class="services-box">
+                  <img src="./assets/img/app-development.png" alt="/" />
+                  <div class="services-content">
+                    <h6 class="services-head">פיתוח אתרים ואפליקציות</h6>
+                    <p class="services-description mb-0">
+                      פיתוח אתרים ואפליקציות מותאמות אישית, המעניקות פתרון מלא לכל צרכיכם הדיגיטליים. אני מבין כי כל
+                      פרויקט הוא ייחודי, ולכן אני מקדיש מחשבה רבה לעיצוב ולפיתוח, תוך שימת דגש על יצירת חוויית משתמש
+                      מושלמת, ממשקים אינטואיטיביים וקוד נקי ויעיל.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 02 -->
+              <div class="col-md-6">
+                <div class="services-box">
+                  <img src="./assets/img/automation.png" alt="/" />
+                  <div class="services-content">
+                    <h6 class="services-head">אוטומציות</h6>
+                    <p class="services-description mb-0">
+                      השירותים האלו מיועדים למקסם את היעילות ולחסוך זמן על ידי אוטומטציה של תהליכים עסקיים חוזרים
+                      ונשנים. זה כולל הכל, החל מאוטומציה של תהליכי תקשורת עם לקוחות, דרך ניהול משימות עבודה עם מערכות
+                      CRM, ועד לאוטומציה של תהליכי פיננסיים וניהול משאבים.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 03 -->
+              <div class="col-md-6">
+                <div class="services-box">
+                  <img src="./assets/img/web-crawler.png" alt="/" />
+                  <div class="services-content">
+                    <h6 class="services-head">סקרייפינג</h6>
+                    <p class="services-description mb-0">
+                      scraping, או במילים פשוטות יותר - גריפת נתונים מאינטרנט. שירות זה מאפשר לאסוף מידע ונתונים מאתרים
+                      שונים באופן אוטומטי, תוך שמירה על דיוק ויעילות. אם אתה זקוק לנתונים מסוימים מהאינטרנט לצורכי
+                      ניתוח, מחקר או כל צורך אחר, אני כאן כדי לספק לך פתרון מותאם אישית.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 04 -->
+              <div class="col-md-6">
+                <div class="services-box">
+                  <img src="./assets/img/test_automation.png" alt="/" />
+                  <div class="services-content">
+                    <h6 class="services-head">טסטים</h6>
+                    <p class="services-description mb-0">
+                      פיתוח טסטים באמצעות Cypress עבור אפליקציות ווב מורכבות. אחד היתרונות הבולטים של Cypress היא היכולת
+                      לראות בזמן אמת את ביצועי הטסטים והאינטראקציות של האפליקציה. זה מאפשר למפתחים לאבחן בקלות בעיות
+                      ולהבין את ההתנהגות של האפליקציה במהלך הטסט.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 05 -->
+              <div class="col-md-6">
+                <div class="services-box">
+                  <img src="./assets/img/wa_bot.png" alt="/" />
+                  <div class="services-content">
+                    <h6 class="services-head">בוטים</h6>
+                    <p class="services-description mb-0">
+                      אני מתמחה בפיתוח בוטים חכמים עבור וואטסאפ. בוטים אלו מותאמים לצרכים ספיציפיים של עסקים וארגונים
+                      ומשמשים ככלי חזק לשיפור התקשורת עם הלקוחות, אוטומציה של תהליכים והגברת היעילות. הבוט יכול לבצע
+                      מגוון רחב של פעולות כגון: מענה על שאלות נפוצות, ניהול הזמנות, איסוף פידבק מלקוחות, שליחת הודעות
+                      מתוזמנות ועוד..
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 06 -->
+              <div class="col-md-6">
+                <div class="services-box">
+                  <img src="./assets/img/no_code.png" alt="/" />
+                  <div class="services-content">
+                    <h6 class="services-head">אפליקציות No Code</h6>
+                    <p class="services-description mb-0">
+                      היתרון העיקרי של פיתוח No-Code הוא היכולת להאיץ את תהליכי הפיתוח ולהפוך אותם למהירים ופשוטים יותר.
+                      דבר זה מאפשר לעסקים, יזמים וארגונים לפתח אפליקציות במהירות ולחסכון משמעותי בעלויות ובזמן
+                      פיתוח.פלטפורמות No-Code מציעות מגוון רחב של כלים ואפשרויות, כולל יכולות לאינטגרציה עם מסדי נתונים,
+                      מערכות חיצוניות, ואפשרויות להתאמה אישית של ממשק המשתמש.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  Resume  -->
+        <div class="resume">
+          <!--  TimeLine Education  -->
+          <div class="boxes my-6">
+            <h3 class="subtitle">השכלה</h3>
+            <div class="row vertical-line">
+              <!--  Item 01  -->
+              <div class="col-md-6">
+                <div class="timeline-box">
+                  <div class="time-line-header">
+                    <p class="timeline-year">2012</p>
+                    <h6 class="timeline-title">תעודת Mcsa CCNA - נס טכנולגיות</h6>
+                  </div>
+                  <div class="timeline-content">
+                    <p>- התקנה, ניהול והגדרה של Windows Server 2012 (AD, DNS, DHCP), MS Hyper-V.</p>
+                    <p>- התקנה והגדרה של Exchange Server 2013.</p>
+                    <p>- CCNA Routing and Switching.</p>
+                  </div>
+                </div>
+              </div>
+              <!--  Item 02  -->
+              <div class="col-md-6">
+                <div class="timeline-box">
+                  <div class="time-line-header">
+                    <p class="timeline-year">2016</p>
+                    <h6 class="timeline-title">
+                      DBA MS-SQL - ג'ון ברייס
+                    </h6>
+                  </div>
+                  <div class="timeline-content">
+                    <p>- פיתוח SP, פונקציות וטריגרים.</p>
+                    <p>- ניהול DB(גיבויים, שחזורים, ביצועים וכו').</p>
+                  </div>
+                </div>
+              </div>
+              <!--  Item 03  -->
+              <div class="col-md-6">
+                <div class="timeline-box">
+                  <div class="time-line-header">
+                    <p class="timeline-year">2017</p>
+                    <h6 class="timeline-title">VMWare - ג'ון ברייס</h6>
+                  </div>
+                  <div class="timeline-content">
+                    <p>- הקמה ותחזוקה של שרתי vmware.</p>
+                    <p>- ניהול שרתי vmware(גיבויים, שחזורים, ביצועים וכו').</p>
+                  </div>
+                </div>
+              </div>
+              <!--  Item 04  -->
+              <div class="col-md-6">
+                <div class="timeline-box">
+                  <div class="time-line-header">
+                    <p class="timeline-year">2020</p>
+                    <h6 class="timeline-title">Full Stack - GoCode</h6>
+                  </div>
+                  <div class="timeline-content">
+                    <p>- פיתוח אפליקציות ווב מבוססות React.</p>
+                    <p>- פיתוח צד שרת ב-Node.js תוך שימוש ב-express server יחד עם Mongo DB.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  TimeLine Experience  -->
+          <div class="boxes mt-6 mb-3">
+            <h3 class="subtitle">נסיון</h3>
+            <div class="row vertical-line">
+              <!--   Item 01   -->
+              <div class="col-md-6">
+                <div class="timeline-box">
+                  <div class="time-line-header">
+                    <p class="timeline-year">2018 - 2017</p>
+                    <h6 class="timeline-title">מנהל רשת</h6>
+                  </div>
+                  <div class="timeline-content">
+                    <p>- תמיכה טכנית למספר רב של משתמשי קצה,ניהול הרשאות, גיבויים, שחזורים,דוא"ל ועוד.</p>
+                    <p>- ניהול ותחזוקה של מאות שרתים מכל הסוגים בסביבת VMware.</p>
+                    <p>- ניהול ואוטומציה של AD ו-Exchange 365.</p>
+                  </div>
+                </div>
+              </div>
+              <!--   Item 02   -->
+              <div class="col-md-6">
+                <div class="timeline-box">
+                  <div class="time-line-header">
+                    <p class="timeline-year">2021 - 2019</p>
+                    <h6 class="timeline-title">מפתח SQL</h6>
+                  </div>
+                  <div class="timeline-content">
+                    <div>
+                      <p>- אחראי לפיתוח תהליכי המרה ממגוון רחב של מערכות מתחרות לתוכנת הדגל של החברה.</p>
+                      <p>- כתיבת פונקציות ונהלים לפתרון בעיות ללקוחות העובדים בצורות שונות של עבודה.</p>
+                      <p>- פיתוח תהליכי אוטומציה ב-Python לקידום פעילויות שוטפות של כל מחלקות החברה.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--   Item 03   -->
+              <div class="col-md-6">
+                <div class="timeline-box">
+                  <div class="time-line-header">
+                    <p class="timeline-year">2022 - 2021</p>
+                    <h6 class="timeline-title">מפתח FULL STACK</h6>
+                  </div>
+                  <div class="timeline-content">
+                    <p>- פיתוח ותחזוקה של אפליקציות ווב באמצעות React.js,Next.js ו-node.js.</p>
+                    <p>- פיתוח אפליקציה ל-Shopify, תוך שימוש ב-API של Shopify להרחבת הפונקציונליות.</p>
+                    <p>- פיתוח בדיקות אוטומטיות באמצעות Cypress למערכת בסקייל מאוד גבוה.</p>
+                    <p>- אינטגרציה של מערכת ניהול תוכן(cms) עם אפליקציות ווב בכדי לאפשר ניהול תוכן יעיל.</p>
+                  </div>
+                </div>
+              </div>
+              <!--   Item 04   -->
+              <div class="col-md-6">
+                <div class="timeline-box">
+                  <div class="time-line-header">
+                    <p class="timeline-year"> - 2023</p>
+                    <h6 class="timeline-title">פרילנס FULL STACK</h6>
+                  </div>
+                  <div class="timeline-content">
+                    <p>- פיתוח תהליכי סקרייפינג לשאיבת מידע מאתרי אינטרנט לצרכים שונים.</p>
+                    <p>- פיתוח בוטים מורכבים בוואטסאפ למתן שירות ללקוחות ולמשתמשי המערכות.</p>
+                    <p>- בניית אפליקציות בפלטפורמות no code לצורך חסכון בעלויות או mvp.</p>
+                    <p>- פיתוח אתרי אינטרנט מורכבים כגון חנות, מאגר שיעורים להאזנה ועוד..</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  Resume End  -->
+
+    <!--  Portfolio Start  -->
+    <section id="portfolio" class="section portfolio">
+      <div class="container">
+        <div class="heading-meta-container">
+          <h2 class="heading-title">תיק עבודות</h2>
+          <h6 class="description">הצצה לפרויקטים שלנו</h6>
+        </div>
+        <div class="row">
+          <!--   Portfolio Filters   -->
+          <ul id="portfolio-filter" class="list-inline col-lg-12 portfolio-filter text-center">
+            <li class="list-inline-item">
+              <a href="javascript:void(0)" data-filter="*" class="active">כולם</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="javascript:void(0)" data-filter=".webdevelop">בניית אתרים</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="javascript:void(0)" data-filter=".bot">בוטים</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="javascript:void(0)" data-filter=".scraping">סקרייפינג</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="javascript:void(0)" data-filter=".no-code">אפליקציות No-Code</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="javascript:void(0)" data-filter=".shopify">Shopify</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="javascript:void(0)" data-filter=".testing">בדיקות</a>
+            </li>
+          </ul>
+        </div>
+        <div class="portfolio-items border-line-v row">
+          <!-- Item 01 -->
+          <div class="col-md-6 col-lg-4 portfolio-item webdevelop">
+            <div class="portfolio-box">
+              <div class="portfolio-image">
+                <img src="./assets/img/moneytor.svg" alt="/" />
+                <div class="portfolio-icon">
+                  <a href="moneytor.html" class="portfolio-magnific mfp-iframe">
+                    <i class="bi bi-file-earmark-text"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="portfolio-content">
+                <h6 class="blog-header">Moneytor - מערכת ניהול פיננסים</h6>
+                <!--<p class="mb-0">image</p>-->
+              </div>
+            </div>
+          </div>
+          <!-- Item 02 -->
+          <div class="col-md-6 col-lg-4 portfolio-item webdevelop">
+            <div class="portfolio-box">
+              <div class="portfolio-image">
+                <img src="./assets/img/redefine-logo.jpg" alt="/" />
+                <div class="portfolio-icon">
+                  <a href="redefine.html" class="portfolio-magnific mfp-iframe">
+                    <i class="bi bi-file-earmark-text"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="portfolio-content">
+                <h6 class="blog-header">Redefine - סטארטאפ בתחום הקריפטו</h6>
+                <!--<p class="mb-0">image</p>-->
+              </div>
+            </div>
+          </div>
+          <!-- Item 03 -->
+          <div class="col-md-6 col-lg-4 portfolio-item webdevelop">
+            <div class="portfolio-box">
+              <div class="portfolio-image">
+                <img src="./assets/img/myshas.png" alt="/" />
+                <div class="portfolio-icon">
+                  <a href="myshas.html" class="portfolio-magnific mfp-iframe">
+                    <i class="bi bi-file-earmark-text"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="portfolio-content">
+                <h6 class="blog-header">MyShas - אתר הנצחה</h6>
+                <!--<p class="mb-0">image</p>-->
+              </div>
+            </div>
+          </div>
+          <!-- Item 04 -->
+          <div class="col-md-6 col-lg-4 portfolio-item fruit webdevelop">
+            <div class="portfolio-image">
+              <img src="./assets/img/fruitshop.png" alt="/" />
+              <div class="portfolio-icon">
+                <a href="fruitshop.html" class="portfolio-magnific mfp-iframe">
+                  <i class="bi bi-file-earmark-text"></i>
+                </a>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <h6 class="blog-header">FruitShop - חנות פירות</h6>
+              <!--<p class="mb-0">image</p>-->
+            </div>
+          </div>
+          <!-- Item 05 -->
+          <div class="col-md-6 col-lg-4 portfolio-item webdevelop">
+            <div class="portfolio-image">
+              <img src="./assets/img/shandurpy.png" alt="/" />
+              <div class="portfolio-icon">
+                <a href="listen.html" class="portfolio-magnific mfp-iframe">
+                  <i class="bi bi-file-earmark-text"></i>
+                </a>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <h6 class="blog-header">Listen - אתר שיעורי תורה</h6>
+              <!--<p class="mb-0">image</p>-->
+            </div>
+          </div>
+          <!-- Item 06 -->
+          <div class="col-md-6 col-lg-4 portfolio-item bot">
+            <div class="portfolio-image">
+              <img src="./assets/img/hayatsia.jpeg" alt="/" />
+              <div class="portfolio-icon">
+                <a href="hayatsia.html" class="portfolio-magnific mfp-iframe">
+                  <i class="bi bi-file-earmark-text"></i>
+                </a>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <h6 class="blog-header">היציע - בוט לניהול ניחושים במשחקי כדורגל</h6>
+              <!--<p class="mb-0">image</p>-->
+            </div>
+          </div>
+          <!-- Item 07 -->
+          <div class="col-md-6 col-lg-4 portfolio-item bot">
+            <div class="portfolio-box">
+              <div class="portfolio-image">
+                <img src="./assets/img/zimer_bot.jpg" alt="/" />
+                <div class="portfolio-icon">
+                  <a href="zimerbot.html" class="portfolio-magnific mfp-iframe">
+                    <i class="bi bi-file-earmark-text"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="portfolio-content">
+                <h6 class="blog-header">צימרבוט - בוט לניהול הזמנות למתחם צימרים</h6>
+                <!--<p class="mb-0">image</p>-->
+              </div>
+            </div>
+          </div>
+          <!-- Item 08 -->
+          <div class="col-md-6 col-lg-4 portfolio-item scraping">
+            <div class="portfolio-box">
+              <div class="portfolio-image">
+                <img src="./assets/img/amazone.png" alt="/" />
+                <div class="portfolio-icon">
+                  <a href="amazone.html" class="portfolio-magnific mfp-iframe">
+                    <i class="bi bi-file-earmark-text"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="portfolio-content">
+                <h6 class="blog-header">פרויקט אוטומציה באמאזון</h6>
+                <!--<p class="mb-0">image</p>-->
+              </div>
+            </div>
+          </div>
+          <!-- Item 09 -->
+          <div class="col-md-6 col-lg-4 portfolio-item scraping">
+            <div class="portfolio-box">
+              <div class="portfolio-image">
+                <img src="./assets/img/scraping1.png" alt="/" />
+                <div class="portfolio-icon">
+                  <a href="scraping1.html" class="portfolio-magnific mfp-iframe">
+                    <i class="bi bi-file-earmark-text"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="portfolio-content">
+                <h6 class="blog-header">כריית נתונים לצוות מכירות</h6>
+                <!--<p class="mb-0">image</p>-->
+              </div>
+            </div>
+          </div>
+          <!-- Item 10 -->
+          <div class="col-md-6 col-lg-4 portfolio-item scraping">
+            <div class="portfolio-image">
+              <img src="./assets/img/scraping2.png" alt="/" />
+              <div class="portfolio-icon">
+                <a href="scraping2.html" class="portfolio-magnific mfp-iframe">
+                  <i class="bi bi-file-earmark-text"></i>
+                </a>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <h6 class="blog-header">כריית נתוני מוצרים לחנות</h6>
+              <!--<p class="mb-0">image</p>-->
+            </div>
+          </div>
+          <!-- Item 11 -->
+          <div class="col-md-6 col-lg-4 portfolio-item no-code">
+            <div class="portfolio-image">
+              <img src="./assets/img/triply.png" alt="/" />
+              <div class="portfolio-icon">
+                <a href="triplys.html" class="portfolio-magnific mfp-iframe">
+                  <i class="bi bi-file-earmark-text"></i>
+                </a>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <h6 class="blog-header">Triply - אפליקציה לניהול טיולים</h6>
+              <!--<p class="mb-0">image</p>-->
+            </div>
+          </div>
+          <!-- Item 12 -->
+          <div class="col-md-6 col-lg-4 portfolio-item no-code">
+            <div class="portfolio-image meirim">
+              <img src="./assets/img/meirim.png" alt="/" />
+              <div class="portfolio-icon">
+                <a href="meirim.html" class="portfolio-magnific mfp-iframe">
+                  <i class="bi bi-file-earmark-text"></i>
+                </a>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <h6 class="blog-header">מאירים - אפליקציה לניהול חונכים\חניכים</h6>
+              <!--<p class="mb-0">image</p>-->
+            </div>
+          </div>
+          <!-- Item 13 -->
+          <div class="col-md-6 col-lg-4 portfolio-item testing">
+            <div class="portfolio-image">
+              <img src="./assets/img/nice-web-logo.webp" alt="/" />
+              <div class="portfolio-icon">
+                <a href="nice.html" class="portfolio-magnific mfp-iframe">
+                  <i class="bi bi-file-earmark-text"></i>
+                </a>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <h6 class="blog-header">nice - פרוייקט בדיקות</h6>
+              <!--<p class="mb-0">image</p>-->
+            </div>
+          </div>
+          <!-- Item 14 -->
+          <div class="col-md-6 col-lg-4 portfolio-item shopify">
+            <div class="portfolio-image upsell">
+              <img src="./assets/img/upsellcode.webp" alt="/" />
+              <div class="portfolio-icon">
+                <a href="upsellcode.html" class="portfolio-magnific mfp-iframe">
+                  <i class="bi bi-file-earmark-text"></i>
+                </a>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <h6 class="blog-header">UpsellCode - אפליקציית שופיפיי לקידום מכירות</h6>
+              <!--<p class="mb-0">image</p>-->
+            </div>
+          </div>
+          <!-- Item 15 -->
+          <div class="col-md-6 col-lg-4 portfolio-item">
+            <div class="portfolio-image thai">
+              <img src="./assets/img/thai.png" alt="/" />
+              <div class="portfolio-icon">
+                <a href="thaivibes.html" class="portfolio-magnific mfp-iframe">
+                  <i class="bi bi-file-earmark-text"></i>
+                </a>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <h6 class="blog-header">Thai - מערכת ניהול מכירות</h6>
+              <!--<p class="mb-0">image</p>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  Portfolio End  -->
+
+    <!--  Blog Start  -->
+    <section id="blog" class="section blog">
+      <div class="container">
+        <h3 class="subtitle">בלוג</h3>
+        <div class="boxes">
+          <div class="row vertical-line">
+            <!-- Item 01 -->
+            <div class="col-md-6">
+              <div class="blog-box">
+                <div class="blog-image">
+                  <img src="./assets/img/blogs/orm.jpg" alt="/" />
+                  <a href="./blogs/orm.html">
+                    <div class="blog-icon">
+                      <i class="bi bi-journal-text"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog-post-content">
+                  <div class="blog-dates">
+                    <span>8 נובמבר 2022</span>
+                  </div>
+                  <h6 class="blog-header">
+                    הסבר על ORM
+                  </h6>
+                  <p class="mb-0">
+                    ORM ,או בשמו המלא Object Relational Mapping .תפקידו של ה-ORM הוא להמיר ולתאם בין בסיס הנתונים לשרת
+                    הצורך
+                    את המידע מבסיס הנתונים. משתמשים ב- ORM בשכבת המידע (DAL –
+                    Data Access Layer) המטפלת בכל הקשור למידע הנדרש לתוכנית.
+                    <span class="bold">
+                      <a href="./blogs/orm.html" class="blog-text-trail">
+                        קרא עוד..
+                      </a>
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Item 02 -->
+            <div class="col-md-6">
+              <div class="blog-box">
+                <div class="blog-image">
+                  <img src="./assets/img/blogs/shadow-dom.jpg" alt="/" />
+                  <a href="./blogs/shadow-dom.html">
+                    <div class="blog-icon">
+                      <i class="bi bi-journal-text"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog-post-content">
+                  <div class="blog-dates">
+                    <span>19 דצמבר 2021</span>
+                  </div>
+                  <h6 class="blog-header">
+                    Shadow dom
+                  </h6>
+                  <p class="mb-0">
+                    אני רוצה לשתף אתכם במשהו שגיליתי לאחרונה בעבודה על Shopify ויכול לעזור גם לא רק במסגרת שופיפיי..
+                    ברגע שאתם רוצים לעצב משהו בחנות, מה שצריך לעשות זה להשפיע ולשנות את ה-css מבלי שזה יפגע בקוד המקורי
+                    של חנות השופיפיי.
+                    <span class="bold">
+                      <a href="./blogs/shadow-dom.html" class="blog-text-trail">
+                        קרא עוד..
+                      </a>
+                    </span>
+
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Item 03 -->
+            <div class="col-md-6">
+              <div class="blog-box">
+                <div class="blog-image">
+                  <img src="./assets/img/blogs/oauth.jpg" alt="/" />
+                  <a href="./blogs/oauth.html">
+                    <div class="blog-icon">
+                      <i class="bi bi-journal-text"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog-post-content">
+                  <div class="blog-dates">
+                    <span>5 אפריל 2022</span>
+                  </div>
+                  <h6 class="blog-header">
+                    אותנטיקציה - Oauth
+                  </h6>
+                  <p class="mb-0">
+                    ישנם כל מיני דרכים לממש זיהוי ללקוח שלנו, החל מהרמה הכי בסיסית של שם משתמש וססמה שנשלחת לשרת ב-clear
+                    text ונשמרת בבסיס הנתונים ועד תעודה דיגיטלית שנשמרת במחשב של הלקוח או אפילו תעודה פיזית.
+                    <span class="bold">
+                      <a href="./blogs/oauth.html" class="blog-text-trail">
+                        קרא עוד..
+                      </a>
+                    </span>
+
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Item 04 -->
+            <div class="col-md-6">
+              <div class="blog-box">
+                <div class="blog-image">
+                  <img src="./assets/img/blogs/jwt.jpg" alt="/" />
+                  <a href="./blogs/jwt.html">
+                    <div class="blog-icon">
+                      <i class="bi bi-journal-text"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog-post-content">
+                  <div class="blog-dates">
+                    <span>17 מאי 2022</span>
+                  </div>
+                  <h6 class="blog-header">
+                    אותנטיקציה - JWT
+                  </h6>
+                  <p class="mb-0">
+                    בהמשך לבלוג הקודם על OAuth היום נדבר על JWT . נתחיל בהסבר קצר על מה זה ונמשיך ביתרונות של שיטה זו
+                    על הזדהות ומתן הרשאות על בסיס User Name and Password .
+                    <span class="bold">
+                      <a href="./blogs/jwt.html" class="blog-text-trail">
+                        קרא עוד..
+                      </a>
+                    </span>
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  Blog End  -->
+
+    <!-- Contact Start -->
+    <section id="contact" class="section contact w-100">
+      <div class="container">
+        <h3 class="subtitle">בא נהיה בקשר</h3>
+        <!-- Map -->
+        <div class="row mt-5">
+          <div class="col-lg-12">
+            <div id="my-map" data-location-lat="31.9311703" data-location-lng="35.0223882"
+              data-location-icon="./assets/img/map_point.png"></div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <!-- Address Info -->
+          <div class="col-12 col-xl-5">
+            <div class="row">
+              <!--  Item 01 -->
+              <div class="col-lg-12">
+                <div class="info-box">
+                  <div class="item-icon">
+                    <img src="./assets/img/mail.png" alt="/" />
+                  </div>
+                  <div class="info-text">
+                    <h5>אימייל</h5>
+                    <small>office@DreamApp.co.il</small>
+                  </div>
+                </div>
+              </div>
+              <!--  Item 02 -->
+              <div class="col-lg-12">
+                <div class="info-box">
+                  <div class="item-icon">
+                    <img src="./assets/img/phone.png" alt="/" />
+                  </div>
+                  <div class="info-text">
+                    <h5>טלפון</h5>
+                    <small>052-3587990</small>
+                  </div>
+                </div>
+              </div>
+              <!--  Item 03 -->
+              <div class="col-lg-12">
+                <div class="info-box">
+                  <div class="item-icon">
+                    <img src="./assets/img/address2.png" alt="/" />
+                  </div>
+                  <div class="info-text">
+                    <h5>כתובת</h5>
+                    <small>הגפן 3, חשמונאים</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Contact Form -->
+          <div class="col-12 col-xl-7">
+            <div class="contact-box">
+              <div class="contact-form">
+                <form id="contactForm">
+                  <div class="row">
+                    <div class="col-lg-12 form-item">
+                      <div class="form-group">
+                        <input name="name" id="name" type="text" class="form-control" placeholder="שם מלא*" required />
+                      </div>
+                    </div>
+                    <div class="col-lg-12 form-item">
+                      <div class="form-group">
+                        <input name="email" id="email" type="email" class="form-control" placeholder="*אימייל"
+                          required />
+                      </div>
+                    </div>
+                    <div class="col-lg-12 form-item">
+                      <div class="form-group">
+                        <input name="subject" id="subject" type="tel" class="form-control" placeholder="*טלפון"
+                          required />
+                      </div>
+                    </div>
+                    <div class="col-12 form-item">
+                      <div class="form-group">
+                        <textarea name="comments" id="comments" rows="3" class="form-control textarea"
+                          placeholder="הפניה שלך*..." required></textarea>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 text-left">
+                      <div class="pill-btn mt-4 mb-3">
+                        <button type="submit" class="secondary-button">
+                          שלח
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  Contact End  -->
+  </main>
+  <!--  Main End  -->
+
+  <!--  Mobile Next and Prev Button Start -->
+  <div class="next-prev-page d-block d-lg-none">
+    <button type="button" class="next-page bg-base-color hstack">
+      <i class="bi bi-chevron-compact-left mx-auto"></i>
+    </button>
+    <button type="button" class="prev-page bg-base-color mt-1 mt-lg-3 hstack">
+      <i class="bi bi-chevron-compact-right mx-auto"></i>
+    </button>
+  </div>
+  <!--  Mobile Next and Prev Button End -->
+
+  <!--  Navbar Button Mobile Start -->
+  <div class="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <!--  Navbar Button Mobile End -->
+
+  <!--  Background Shapes Start  -->
+  <div class="area">
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+  <!--  Background Shapes End  -->
+
+  <!-- Mouase Magic Cursor Start -->
+  <div class="m-magic-cursor mmc-outer"></div>
+  <div class="m-magic-cursor mmc-inner"></div>
+  <!-- Mouase Magic Cursor End -->
+
+  <!-- Color Pallet -->
+  <div id="color-switcher" class="color-switcher">
+    <div class="text-center color-pallet hide">
+      <h6 class="theme-skin-title">Light &amp; Dark</h6>
+      <ul class="color-scheme list-inline">
+        <li class="list-inline-item">
+          <a href="javascript:void(0)" onclick="hideDarkLightPallete()" class="light-scheme active"><i
+              class="bi bi-brightness-high"></i> Light</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="javascript:void(0)" class="dark-scheme"><i class="bi bi-moon"></i> Dark</a>
+        </li>
+      </ul>
+      <!-- <h6 class="text-center mt-3 text-dark">Select your color</h6>
+      <ul class="pattern">
+        <li>
+          <a class="color1" href="javascript:void(0)"></a>
+        </li>
+        <li>
+          <a class="color2" href="javascript:void(0)"></a>
+        </li>
+        <li>
+          <a class="color3" href="javascript:void(0)"></a>
+        </li>
+        <li>
+          <a class="color4" href="javascript:void(0)"></a>
+        </li>
+        <li>
+          <a class="color5" href="javascript:void(0)"></a>
+        </li>
+        <li>
+          <a class="color6" href="javascript:void(0)"></a>
+        </li>
+        <li>
+          <a class="color7" href="javascript:void(0)"></a>
+        </li>
+        <li>
+          <a class="color8" href="javascript:void(0)"></a>
+        </li>
+        <li>
+          <a class="color9" href="javascript:void(0)"></a>
+        </li>
+      </ul> -->
+    </div>
+    <div class="pallet-button hide">
+      <a href="javascript:void(0)" class="cp-toggle"><i class="bi bi-gear"></i></a>
+    </div>
+  </div>
+  <!----------------------------->
+
+
+  <!-- Bootstrap Modal -->
+  <div class="modal fade" id="responseModal" tabindex="-1" role="dialog" aria-labelledby="responseModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="responseModalLabel"></h5>
+          <div  class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </div>
+        </div>
+        <div class="modal-body">
+          <!-- Response message will be inserted here -->
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+  <!----------------------------->
+  <!--  JavaScripts  -->
+  <!--  Jquery 3.4.1  -->
+  <script src="assets/js/jquery-3.4.1.min.js"></script>
+  <!--  Bootstrap Js  -->
+  <script src="assets/js/bootstrap.js"></script>
+  <!--  Malihu ScrollBar Js  -->
+  <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <!--  CountTo Js  -->
+  <script src="assets/js/jquery.countTo.js"></script>
+  <!--  Swiper Js  -->
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <!--  Isotope Js  -->
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <!--  Magnific Popup Js  -->
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <!-- Map Js -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0KMn4SRoY0zNEJV-ie_KoXORRKr_Vrtw"></script>
+  <!--  Arshia Js  -->
+  <!-- <script src="assets/js/arshia.js"></script> -->
+  <script src="assets/js/arshia.rtl.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#contactForm').on('submit', function (e) {
+        e.preventDefault();
+        var formData = $(this).serialize();
+
+        $.ajax({
+          type: "POST",
+          url: "/sendemail",
+          data: formData,
+          success: function (response) {
+            // Set the message and show the modal
+            $('#responseModal .modal-body').text("פנייתך נשלחה בהצלחה.");
+            $('#responseModal').modal('show');
+          },
+          error: function () {
+            // Set the message and show the modal
+            $('#responseModal .modal-body').text("An error occurred");
+            $('#responseModal').modal('show');
+          }
+        });
+      });
+
+      // Optional: If you want to close the modal manually via JavaScript
+      $('.close, .btn-secondary').click(function () {
+        $('#responseModal').modal('hide');
+      });
+    });
+  </script>
+
+
+</body>
+
+</html>
